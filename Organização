@@ -1,0 +1,21 @@
+graph TD
+  A[Recepção do Leite] --> B[Inspeção e Controle de Qualidade]
+  B --> C[Pasteurização]
+  C --> D[Resfriamento]
+  D --> E[Coagulação]
+  E --> F[Fabricação do Queijo]
+  F --> G[Embalagem]
+  G --> H[Controle de Peso e Qualidade]
+  H --> I[Armazenamento]
+  I --> J[Distribuição]
+
+  style A fill:#f9f,stroke:#333,stroke-width:2px
+  style B fill:#f9f,stroke:#333,stroke-width:2px
+  style C fill:#f9f,stroke:#333,stroke-width:2px
+  style D fill:#f9f,stroke:#333,stroke-width:2px
+  style E fill:#f9f,stroke:#333,stroke-width:2px
+  style F fill:#f9f,stroke:#333,stroke-width:2px
+  style G fill:#f9f,stroke:#333,stroke-width:2px
+  style H fill:#f9f,stroke:#333,stroke-width:2px
+  style I fill:#f9f,stroke:#333,stroke-width:2px
+  style J fill:#f9f,stroke:#333,stroke-width:2px
